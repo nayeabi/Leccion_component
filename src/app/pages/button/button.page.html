@@ -1,0 +1,50 @@
+<style>
+  .titulo {
+    text-align: center;
+  }
+</style>
+<ion-header class="titulo">
+  <ion-toolbar>
+    <ion-buttons slot="start" >       
+      <ion-back-button       
+      defaultHref="/" text=""       
+      color="tertiary"       
+      mode="chevron-back-circle"></ion-back-button>     
+    </ion-buttons>          
+    <ion-title color="tertiary">Button</ion-title>
+
+    <ion-chip slot="end" color="tertiary">
+      <ion-avatar>
+        <img src="/assets/avatar.jpg" alt=""/>
+      </ion-avatar>
+      <ion-label>Nayeli</ion-label>
+    </ion-chip>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+    <ion-title>
+      <h1>Basic Usage</h1>
+    </ion-title>
+    <ion-button>Default</ion-button>
+  </ion-toolbar>
+
+  <ion-title>
+      <h1>Expand</h1>
+    </ion-title>
+    <ion-button expand="block">Block</ion-button>
+    <ion-button expand="full">Full</ion-button>
+  
+  <ion-title>
+    <h1>Shape</h1>
+  </ion-title>
+  <ion-button>Default</ion-button>
+  <ion-button shape="round">Round</ion-button>
+  <ion-button>
+    <ion-icon slot="icon-only" name="logo-instagram"></ion-icon>
+  </ion-button>
+  <ion-button shape="round">
+    <ion-icon slot="icon-only" name="logo-apple"></ion-icon>
+  </ion-button>
+</ion-content>
